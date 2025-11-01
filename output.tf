@@ -3,7 +3,7 @@ output "vpc_id" {
 }
 
 output "public_subnet_ids" {
-  value = module.vpc.public_subnets_ids
+  value = module.vpc.public_subnet_ids
 }
 
 # output "az_info" {
